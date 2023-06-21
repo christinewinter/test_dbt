@@ -1,1 +1,1 @@
-select actor_id, first_name, last_name from actor
+select actor_id, first_name, last_name from {{ source("public", "actor") }}
