@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: public
+    tables:
+      - name: rental
+        columns:
+          - name: rental_id
+            tests:
+              - unique
+              - not_null

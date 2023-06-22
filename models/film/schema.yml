@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: public
+    tables:
+      - name: film
+        columns:
+          - name: film_id
+            tests:
+              - unique
+              - not_null

@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: public
+    tables:
+      - name: city
+        columns:
+          - name: city_id
+            tests:
+              - unique
+              - not_null
